@@ -1,12 +1,15 @@
 # Your Teach LA Project Here!
 
+![Production Build](https://github.com/uclaacm/teach-la-react-starter-barebones/workflows/Production%20Build/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
 What's this? This is a template repository that sets up a few minor systems for a React micro-app, which is something that we've done frequently at Teach LA. Here's what it does:
 
 * has the latest, dependabot-certified version of `create-react-app` and dependencies
 * has GitHub Actions automatically set up for testing builds
 * has Netlify redirects set up for multi-route SPAs
+* includes the [Contributor Covenant](https://www.contributor-covenant.org/) in `CODE_OF_CONDUCT.md`
 * has a little bit of documentation for new people!
 
 We are also planning on creating a more opinionated starter (with `react-router-dom`, stricter ESLint checks, auto-formatting, and fonts) soon! Keep an eye out for that!
