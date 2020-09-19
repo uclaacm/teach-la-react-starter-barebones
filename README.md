@@ -20,7 +20,7 @@ We are also planning on creating a more opinionated starter (with `react-router-
 
 ## Things You Should Do (and then delete this section)
 
-Thanks for using our template! We hope this makes your life developing singificantly easier.
+Thanks for using our template! We hope this makes your life developing significantly easier.
 
 Things you should do **after using this as a template**:
 
