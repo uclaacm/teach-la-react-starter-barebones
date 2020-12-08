@@ -8,6 +8,7 @@ What's this? This is a template repository that sets up a few minor systems for 
 
 * has the latest, dependabot-certified version of `create-react-app` and dependencies
 * has GitHub Actions automatically set up for testing builds
+* has a default Dependabot config for `npm` (with monthly audits)
 * has Netlify redirects set up for multi-route SPAs
 * includes the [Contributor Covenant](https://www.contributor-covenant.org/) in `CODE_OF_CONDUCT.md`
 * has a little bit of documentation for new people!
