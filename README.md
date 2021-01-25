@@ -12,6 +12,7 @@ What's this? This is a template repository that sets up a few minor systems for 
 * has Netlify redirects set up for multi-route SPAs
 * includes the [Contributor Covenant](https://www.contributor-covenant.org/) in `CODE_OF_CONDUCT.md`
 * has a little bit of documentation for new people!
+* uses `main` as the default branch (new)
 
 We are also planning on creating a more opinionated starter (with `react-router-dom`, stricter ESLint checks, auto-formatting, and fonts) soon! Keep an eye out for that!
 
@@ -28,7 +29,7 @@ Things you should do **after using this as a template**:
 - [ ] find-and-replace `YOUR_PROJECT_URL_HERE` with your GitHub repo's project name in this README (it's in a few places, so use an editor!)
 - [ ] set up [Netlify](https://www.netlify.com/) for this app - talk to matt (@malsf21) or leo (@krashanoff) if you need access to the Teach LA Netlify team
 - [ ] turn on "Automatically delete head branches" in GitHub `Settings > Options`
-- [ ] in `Settings > Branches`, create a branch protection rule that requires PR reviews. You can optionally enable status checks.
+- [ ] in `Settings > Branches`, create a branch protection rule for `main` that requires PR reviews. You can optionally enable status checks, like passing `build`.
 - [ ] update the README badges for the GitHub Actions and Netlify with the correct links!
 - [ ] update and delete this documentation!
 
@@ -60,13 +61,13 @@ npm run build
 
 Want to make a change? Great! Here are the steps:
 
-1. Either make a new branch or a fork of this repository. `master` is a protected branch, **so you cannot push to it**.
+1. Either make a new branch or a fork of this repository. `main` is a protected branch, **so you cannot push to it**.
 2. Follow the instructions in "Development Setup" above. If you're on a fork, replace the URL with the fork's URL; if you're on a different branch, check it out using `git checkout`.
 3. Make your changes!
 4. **Before you push**, make sure your app builds with `npm run build`. If there are any errors, our CI/CD service will **reject your build**.
 5. Once you're ready, stage and commit your changes!
 6. Make a [pull request](https://github.com/uclaacm/YOUR_PROJECT_URL_HERE/pulls) with your changes, and let someone on the dev team know. Netlify has a neat feature called "Deploy Previews" that give you a link to preview your changes; [see the blog post](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/) for more info!
-7. If your code passes code review, we'll merge it into `master`. Congratulations! If you'd like, it's now safe to delete your branch/fork.
+7. If your code passes code review, we'll merge it into `main`. Congratulations! If you'd like, it's now safe to delete your branch/fork.
 
 ## Licensing & Attribution
 
